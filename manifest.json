@@ -23,7 +23,7 @@
     }
   ],
   "description": "Highlight entities from and material about specific countries on social media platforms.",
-  "homepage_url": "https://github.com/ia-defensa/country-highlighter-chromium",
+  "homepage_url": "https://github.com/iadefensa/country-highlighter-chromium",
   "host_permissions": [
     "http://*/*",
     "https://*/*"
