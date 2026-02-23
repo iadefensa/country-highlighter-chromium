@@ -1,7 +1,5 @@
 # Country Highlighter
 
-[![Steady](https://badgen.net/static/support/this%20project/black)](https://steady.page/en/meiert) [![Buy Me a Coffee](https://badgen.net/static/support/this%20project/pink?icon=buymeacoffee)](https://buymeacoffee.com/meiert)
-
 A Chromium browser extension that highlights people and organizations as well as content from and about specific countries on social media platforms.
 
 ## Features
