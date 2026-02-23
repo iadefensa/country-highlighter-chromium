@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Country Highlighter</title>
+		<link rel="stylesheet" href="setup/default.css">
+		<link rel="stylesheet" href="setup/basecoat.min.css">
+		<script src="setup/tailwind.min.js"></script>
+		<style>
+			body {
+				min-width: 300px;
+				padding: 1rem;
+			}
+
+			.status {
+				padding: .5rem .5rem 0;
+				text-align: center;
+			}
+
+			.status.active {
+				color: #059669;
+			}
+
+			.status.inactive {
+				color: #dc2626;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="font-semibold mb-2 text-gray-900 text-lg">Country Highlighter</h1>
+		<div class="bg-gray-50 flex items-center justify-between mb-4 p-3 rounded-md">
+			<span class="font-medium text-gray-700 text-sm">Enable</span>
+			<label class="label">
+				<input type="checkbox" id="extensionEnabled" role="switch" class="input">
+			</label>
+		</div>
+		<button class="btn w-full" id="openOptions">Open settings</button>
+		<div class="status text-sm" id="status">Loading…</div>
+		<script src="popup.js"></script>
+	</body>
+</html>

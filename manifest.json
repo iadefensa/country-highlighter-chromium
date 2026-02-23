@@ -1,0 +1,54 @@
+{
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "config/styles.js",
+        "content.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "description": "Highlight entities from and material about specific countries on social media platforms.",
+  "homepage_url": "https://codeberg.org/j9t/country-highlighter",
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "manifest_version": 3,
+  "name": "Country Highlighter",
+  "options_page": "options.html",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "version": "1.8.0",
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "config/*.json"
+      ]
+    }
+  ]
+}

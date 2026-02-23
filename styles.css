@@ -1,0 +1,47 @@
+/* Country Highlighter—Content Script Styles */
+
+/* Base highlight class (styles applied via JavaScript based on user preference) */
+.country-highlight {
+  transition: all 0.2s ease;
+}
+
+/* Profile container highlight (assertive mode only) */
+.country-highlight-profile {
+  transition: outline 0.2s ease;
+}
+
+/* Ensure highlighted text is visible and readable */
+.country-highlight {
+  /* Prevent layout shift */
+  display: inline;
+
+  /* Ensure text selection still works */
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
+
+/* Improve visibility in dark mode contexts */
+@media (prefers-color-scheme: dark) {
+  .country-highlight {
+    /* Styles are applied inline from JavaScript based on user settings */
+    /* This media query is here for potential future dark mode customization */
+  }
+}
+
+/* Ensure highlights work in various contexts */
+.country-highlight a {
+  /* Preserve link styling */
+  color: inherit;
+}
+
+/* Smooth page border animation (assertive mode) */
+html {
+  transition: outline 0.3s ease;
+}
+
+/* Ensure outline is visible */
+body {
+	overflow: auto;
+}
