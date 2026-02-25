@@ -209,3 +209,7 @@ Expected performance impact: <100ms on initial page load, negligible during scro
 1. Check Chrome/Edge sync is enabled
 2. Try clearing extension storage (“Reset to defaults”)
 3. Reload extension from `chrome://extensions/`
+
+## Contributing
+
+[Contributions are welcome.](CONTRIBUTING.md) They are subject to the [Contributor License Agreement](CLA.md).
