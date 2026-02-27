@@ -22,7 +22,7 @@
       "run_at": "document_idle"
     }
   ],
-  "description": "Highlight entities from and material about specific countries on social media platforms.",
+  "description": "Highlight mentions of specific countries on social media platforms, to protect yourself and your community",
   "homepage_url": "https://github.com/iadefensa/country-highlighter-chromium",
   "host_permissions": [
     "http://*/*",
@@ -40,7 +40,7 @@
     "activeTab",
     "storage"
   ],
-  "version": "1.8.0",
+  "version": "1.8.1",
   "web_accessible_resources": [
     {
       "matches": [
