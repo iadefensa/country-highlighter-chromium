@@ -34,13 +34,13 @@
     "128": "images/icon-128.png"
   },
   "manifest_version": 3,
-  "name": "Country Highlighter",
+  "name": "IA Defensa Country Highlighter",
   "options_page": "options.html",
   "permissions": [
     "activeTab",
     "storage"
   ],
-  "version": "1.8.1",
+  "version": "1.8.2",
   "web_accessible_resources": [
     {
       "matches": [
