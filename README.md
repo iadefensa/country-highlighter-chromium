@@ -2,7 +2,7 @@
 
 A Chromium browser extension that highlights people and organizations as well as content from and about specific countries on social media platforms.
 
-🔒 This extension saves no data. Source code access is available. For business and government use, [purchase a license](https://iadefensa.gumroad.com/). Priority support and custom options available.
+🔒 This extension saves no data. Source code access is available. For business and government use, [purchase a license](https://payhip.com/iadefensa). Priority support and custom options available.
 
 ## Features
 
